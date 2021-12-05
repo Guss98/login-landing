@@ -91,10 +91,12 @@
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    flex-direction: wrap;
 }
 
 .imagen {
     width: 60%;
     background-image: url(./fiesta.jpg);
-    background-position: left;
+    background-position:left;
+    background-repeat: no-repeat;
 }
